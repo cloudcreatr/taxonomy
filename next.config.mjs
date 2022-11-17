@@ -7,6 +7,7 @@ const nextConfig = {
     domains: ["avatars.githubusercontent.com"],
   },
   experimental: {
+    runtime: "experimental-edge",
     appDir: true,
     serverComponentsExternalPackages: ["@prisma/client"],
   },
